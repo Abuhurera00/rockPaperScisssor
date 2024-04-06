@@ -1,0 +1,70 @@
+body {
+    background-image: url(background.webp);
+
+    background-size: cover;
+}
+
+.main-container {
+    margin: auto;
+    border-radius: 20px;
+    width: 600px;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 11px rgba(0, 0, 0, .9);
+}
+
+span {
+    color: #d2a000;
+}
+
+.container {
+    display: flex;
+}
+
+.img {
+    margin: 20px 20px 20px 0;
+    font-size: 1.3rem;
+}
+
+#rock {
+    background-image: url(rock.jpg);
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#paper {
+    background-image: url(paper.jpg);
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#scissor {
+    background-image: url(scissor.jpg);
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    box-shadow: 0 16px 11px rgba(0, 0, 0, .4);
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+button:hover{
+    box-shadow: 0 3px 6px #d2a000;
+}
